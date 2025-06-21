@@ -1,0 +1,58 @@
+#outerContainer {
+  display: Flex;
+  flex-direction: column;
+}
+
+#innerContainer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 5px;
+}
+
+button:active {
+  transform: translateY(2px);
+  background-color: darkblue;
+}
+
+button {
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: lightgrey;
+}
+
+#innerContainer2 {
+  display: flex;
+  justify-content: center;
+}
+
+#playerScore {
+  padding-right: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#computerScore {
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#outcomeText {
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+#innerContainer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
