@@ -7,7 +7,7 @@
   display: flex;
   height: 100px;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 5px;
   gap: 5px;
 }
 
@@ -31,12 +31,14 @@ button {
 #playerScore {
   padding-right: 10px;
   padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
 
 #computerScore {
   padding-left: 10px;
   padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
 
@@ -46,8 +48,8 @@ button {
   align-items: center;
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 #innerContainer3 {
@@ -55,4 +57,12 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+}
+
+#choicesBar {
+  display: Flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 400px;
 }

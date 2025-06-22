@@ -9,13 +9,14 @@
   <body>
     <div id="outerContainer">
       <div id="outcomeText">Rock, Paper, Scissors?</div>
-      <div id="innerContainer3"></div>
       <div id="innerContainer">
-        <button id="rock" onclick="chooseRock()">Rock</button>
-        <button id="paper" onclick="choosePaper()">Paper</button>
-        <button id="scissors" onclick="chooseScissors()">Scissors</button>
-        <!-- <button id="resetbutton" onclick="resetScore()">Reset</button> -->
+        <button id="rock" onclick="getPlayerChoice(`rock`)">Rock</button>
+        <button id="paper" onclick="getPlayerChoice(`paper`)">Paper</button>
+        <button id="scissors" onclick="getPlayerChoice(`scissors`)">
+          Scissors
+        </button>
       </div>
+      <div id="choicesBar"></div>
       <div id="innerContainer2">
         <div id="playerScore">Player Score:</div>
         <div id="computerScore">Computer Score:</div>
